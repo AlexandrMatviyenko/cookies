@@ -1,0 +1,388 @@
+@media screen and (max-width: 1270px) {
+    .products-items {
+        grid-template-columns: repeat(2, 500px);
+        justify-content: center;
+    }
+
+    .products-item {
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .order-block {
+        justify-content: center;
+    }
+
+    .order-block-image {
+        display: none;
+    }
+
+    .order-form {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-image {
+        height: 450px;
+        width: 400px;
+        top: 60px;
+    }
+
+    .main-title {
+        font-size: 65px;
+    }
+
+    .main-text {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 350px;
+        height: 90px;
+        font-size: 35px;
+    }
+
+    .main-text {
+        max-width: 700px;
+    }
+
+    .products {
+        padding: 0;
+    }
+
+    .products-items {
+        grid-template-columns: repeat(1, 850px);
+    }
+
+    .products-item-title {
+        font-size: 24px;
+    }
+
+    .products-item-text {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .products-item-price {
+        font-size: 44px;
+    }
+
+    .products-item-weight {
+        font-size: 24px;
+    }
+
+    .love-item {
+        width: 640px;
+        height: 500px;
+    }
+
+    .love-item img {
+        width: 640px;
+        height: 500px;
+    }
+
+    .love-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .love-item-white {
+        padding: 35px 40px;
+    }
+
+    .love-item-title {
+        font-size: 40px;
+    }
+
+    .love-item-text {
+        font-size: 24px;
+    }
+
+    .order-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .order-form-text {
+        font-family: 'Steppe-Book', sans-serif;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .order-form-inputs {
+        align-items: center;
+    }
+
+    .order-form-input {
+        width: 600px;
+        height: 90px;
+        font-size: 24px;
+    }
+
+    .order-form-inputs .button.violet-button {
+        width: 500px;
+        height: 90px;
+    }
+
+    .order {
+        padding-bottom: 60px;
+    }
+
+    .footer {
+        padding-top: 60px;
+    }
+
+    .currency {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65px;
+        min-width: 65px;
+        font-size: 25px;
+    }
+
+    .header-burger {
+        display: block;
+    }
+
+    .header-burger svg {
+        width: 62px;
+        height: 62px;
+        fill: #ffff00;
+        margin-right: 20px;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+        z-index: 10;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+        margin-top: 200px;
+    }
+
+    .menu-item a {
+        font-size: 50px;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu-close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .menu-close svg {
+        fill: #ffff00;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*
+@media screen and (max-width: 1115px) {
+    .love-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .products-items {
+        grid-template-columns: repeat(2, 384px);
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .products-items {
+        grid-template-columns: repeat(1, 500px);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .love-item {
+        height: 320px;
+    }
+
+    .love-item-white {
+        padding: 50px 40px;
+    }
+
+    .love-item-image-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .products-items {
+        grid-template-columns: repeat(1, 290px);
+    }
+
+    .products-item-text {
+        font-size: 12px;
+    }
+
+    .products-item-price {
+        font-size: 16px;
+    }
+
+    .love-item-title {
+        font-size: 20px;
+    }
+
+    .love-item-text {
+        font-size: 14px;
+    }
+
+    .love-item {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .main-content {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .main-title {
+        font-size: 60px;
+    }
+
+    .common-title {
+        font-size: 40px;
+    }
+
+    .love {
+        padding-bottom: 90px;
+    }
+
+    .order {
+        padding-bottom: 70px;
+    }
+
+    .order-block {
+        margin-top: 50px;
+    }
+
+    .footer {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .love-item {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order-form-text {
+        font-size: 12px;
+        font-family: 'Steppe-Book', sans-serif;
+        text-align: center;
+        max-width: 280px;
+    }
+
+    .order-form-inputs {
+        align-items: center;
+    }
+
+    .order-form-inputs .order-form-input {
+        width: 250px;
+        height: 48px;
+    }
+
+    .order-form-inputs .order-form-input {
+        font-size: 16px;
+    }
+
+    .order-form-inputs .order-form-input::placeholder {
+        font-size: 16px;
+    }
+
+    .order-form-inputs .button.violet-button {
+        width: 250px;
+        height: 48px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .currency {
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .love-item {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .love-item {
+        height: 400px;
+    }
+
+    .love {
+        padding-bottom: 10px;
+    }
+
+    .footer {
+        padding-bottom: 25px;
+    }
+
+    .currency {
+        right: 20px;
+    }
+}*/
